@@ -6,7 +6,7 @@ import com.ebaypractice.pages.EbaybooksTestPage;
 import com.ebaypractice.pages.HomeTestPage;
 import com.qmetry.qaf.automation.core.QAFTestBase;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
-
+//////////////////////////////////////////////////////////////
 public class Ebaytestpage extends WebDriverTestCase {
 	HomeTestPage ebayhomepage =new HomeTestPage();
 	 EbaybooksTestPage ebaybookspage=new EbaybooksTestPage();
