@@ -1,0 +1,186 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 12568
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1182
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.5892653791841516-1",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.5892653791841516-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.5892653791841516-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.5892653791841516-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.5892653791841516-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.5892653791841516-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.5892653791841516-2, id: 0.5892653791841516-3, id: 0.5892653791841516-4, id: 0.5892653791841516-5, id: 0.5892653791841516-6, id: 0.5892653791841516-7, id: 0.5892653791841516-8, id: 0.5892653791841516-9, id: 0.5892653791841516-10, id: 0.5892653791841516-11, id: 0.5892653791841516-12, id: 0.5892653791841516-13, id: 0.5892653791841516-14, id: 0.5892653791841516-15, id: 0.5892653791841516-16, id: 0.5892653791841516-17, id: 0.5892653791841516-18, id: 0.5892653791841516-19, id: 0.5892653791841516-20, id: 0.5892653791841516-21, id: 0.5892653791841516-22, id: 0.5892653791841516-23, id: 0.5892653791841516-24, id: 0.5892653791841516-25, id: 0.5892653791841516-26, id: 0.5892653791841516-27, id: 0.5892653791841516-28, id: 0.5892653791841516-29, id: 0.5892653791841516-30, id: 0.5892653791841516-31, id: 0.5892653791841516-32, id: 0.5892653791841516-33, id: 0.5892653791841516-34, id: 0.5892653791841516-35, id: 0.5892653791841516-36, id: 0.5892653791841516-37]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.5892653791841516-2",
+        "{\"id\":\"0.5892653791841516-2\"}"
+      ],
+      "result": "isElementSelected:true",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.5892653791841516-2",
+        "{\"id\":\"0.5892653791841516-2\"}"
+      ],
+      "result": "getElementText:All Categories",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.5892653791841516-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.5892653791841516-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.5892653791841516-6]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.5892653791841516-6",
+        "{\"id\":\"0.5892653791841516-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.5892653791841516-6",
+        "{\"id\":\"0.5892653791841516-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.5892653791841516-38",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.5892653791841516-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4558
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.5078873610773087-1]",
+      "subLogs": [],
+      "duration": 164
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.5078873610773087-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.5078873610773087-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 31
+    }
+  ],
+  "checkPoints": []
+}

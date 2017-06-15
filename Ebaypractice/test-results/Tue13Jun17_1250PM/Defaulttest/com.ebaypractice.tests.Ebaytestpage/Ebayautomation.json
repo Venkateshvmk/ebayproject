@@ -1,0 +1,175 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3201
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1181
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.10272662668384314-1",
+      "subLogs": [],
+      "duration": 217
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.10272662668384314-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.10272662668384314-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.10272662668384314-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.10272662668384314-1",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.10272662668384314-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.10272662668384314-2, id: 0.10272662668384314-3, id: 0.10272662668384314-4, id: 0.10272662668384314-5, id: 0.10272662668384314-6, id: 0.10272662668384314-7, id: 0.10272662668384314-8, id: 0.10272662668384314-9, id: 0.10272662668384314-10, id: 0.10272662668384314-11, id: 0.10272662668384314-12, id: 0.10272662668384314-13, id: 0.10272662668384314-14, id: 0.10272662668384314-15, id: 0.10272662668384314-16, id: 0.10272662668384314-17, id: 0.10272662668384314-18, id: 0.10272662668384314-19, id: 0.10272662668384314-20, id: 0.10272662668384314-21, id: 0.10272662668384314-22, id: 0.10272662668384314-23, id: 0.10272662668384314-24, id: 0.10272662668384314-25, id: 0.10272662668384314-26, id: 0.10272662668384314-27, id: 0.10272662668384314-28, id: 0.10272662668384314-29, id: 0.10272662668384314-30, id: 0.10272662668384314-31, id: 0.10272662668384314-32, id: 0.10272662668384314-33, id: 0.10272662668384314-34, id: 0.10272662668384314-35, id: 0.10272662668384314-36, id: 0.10272662668384314-37]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.10272662668384314-1",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.10272662668384314-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.10272662668384314-6]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.10272662668384314-6",
+        "{\"id\":\"0.10272662668384314-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.10272662668384314-6",
+        "{\"id\":\"0.10272662668384314-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 56
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.10272662668384314-38",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.10272662668384314-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4811
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.04518247248306895-1]",
+      "subLogs": [],
+      "duration": 125
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.04518247248306895-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.04518247248306895-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@id='spf_content'], using=xpath}"
+      ],
+      "result": "[id: 0.04518247248306895-2]",
+      "subLogs": [],
+      "duration": 47
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomation",
+        "sign": "Ebaytestpage.Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@4201c465]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270034660,
+      "duration": 44,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

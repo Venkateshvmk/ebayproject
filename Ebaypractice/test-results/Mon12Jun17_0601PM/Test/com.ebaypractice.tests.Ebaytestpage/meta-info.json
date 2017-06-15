@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomation",
+        "sign": "Ebaytestpage.Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@35841320]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270669441,
+      "duration": 46,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomation",
+        "resultFileName": "EbayautomationNViTiTQhqH",
+        "sign": "Ebaytestpage.Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@35841320]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270687744,
+      "duration": 52,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomation",
+        "resultFileName": "EbayautomationwWqQXgynXc",
+        "sign": "Ebaytestpage.Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@35841320]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270711736,
+      "duration": 60,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

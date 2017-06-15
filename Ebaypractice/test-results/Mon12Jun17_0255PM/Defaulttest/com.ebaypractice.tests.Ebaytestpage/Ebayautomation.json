@@ -1,0 +1,80 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3170
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1154
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.43575115150540866-1",
+      "subLogs": [],
+      "duration": 1639
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.43575115150540866-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.43575115150540866-1",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.43575115150540866-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.43575115150540866-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.43575115150540866-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.43575115150540866-2, id: 0.43575115150540866-3, id: 0.43575115150540866-4, id: 0.43575115150540866-5, id: 0.43575115150540866-6, id: 0.43575115150540866-7, id: 0.43575115150540866-8, id: 0.43575115150540866-9, id: 0.43575115150540866-10, id: 0.43575115150540866-11, id: 0.43575115150540866-12, id: 0.43575115150540866-13, id: 0.43575115150540866-14, id: 0.43575115150540866-15, id: 0.43575115150540866-16, id: 0.43575115150540866-17, id: 0.43575115150540866-18, id: 0.43575115150540866-19, id: 0.43575115150540866-20, id: 0.43575115150540866-21, id: 0.43575115150540866-22, id: 0.43575115150540866-23, id: 0.43575115150540866-24, id: 0.43575115150540866-25, id: 0.43575115150540866-26, id: 0.43575115150540866-27, id: 0.43575115150540866-28, id: 0.43575115150540866-29, id: 0.43575115150540866-30, id: 0.43575115150540866-31, id: 0.43575115150540866-32, id: 0.43575115150540866-33, id: 0.43575115150540866-34, id: 0.43575115150540866-35, id: 0.43575115150540866-36, id: 0.43575115150540866-37]",
+      "subLogs": [],
+      "duration": 15
+    }
+  ],
+  "checkPoints": []
+}

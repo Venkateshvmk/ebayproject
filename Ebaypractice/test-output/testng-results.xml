@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18933" started-at="2017-06-15T05:38:37Z" finished-at="2017-06-15T05:38:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18933" started-at="2017-06-15T05:38:37Z" finished-at="2017-06-15T05:38:56Z">
+      <class name="com.ebaypractice.tests.Ebaytestpage">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="setupSuit" is-config="true" duration-ms="15" started-at="2017-06-15T11:08:37Z" finished-at="2017-06-15T11:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="setup" is-config="true" duration-ms="0" started-at="2017-06-15T11:08:37Z" finished-at="2017-06-15T11:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="setupTest" is-config="true" duration-ms="0" started-at="2017-06-15T11:08:37Z" finished-at="2017-06-15T11:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-06-15T11:08:37Z" finished-at="2017-06-15T11:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ebaypractice.tests.Ebaytestpage.Ebayautomation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="Ebayautomation" duration-ms="18798" started-at="2017-06-15T11:08:37Z" finished-at="2017-06-15T11:08:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Ebayautomation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-15T11:08:56Z" finished-at="2017-06-15T11:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Ebayautomation status=SUCCESS method=Ebaytestpage.Ebayautomation()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-15T11:08:56Z" finished-at="2017-06-15T11:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="afterTest" is-config="true" duration-ms="91" started-at="2017-06-15T11:08:56Z" finished-at="2017-06-15T11:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.ebaypractice.tests.Ebaytestpage@7d900ecf]" name="afterSuit" is-config="true" duration-ms="0" started-at="2017-06-15T11:08:56Z" finished-at="2017-06-15T11:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c1b2d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.ebaypractice.tests.Ebaytestpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

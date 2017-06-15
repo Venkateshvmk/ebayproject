@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomationn",
+        "sign": "Ebaytestpage1.Ebayautomationn()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage1@52f27fbd]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270669531,
+      "duration": 11,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomationn",
+        "resultFileName": "EbayautomationnurLXzCBqWB",
+        "sign": "Ebaytestpage1.Ebayautomationn()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage1@52f27fbd]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270687744,
+      "duration": 52,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Ebayautomationn",
+        "resultFileName": "EbayautomationnGgnsZuPRpa",
+        "sign": "Ebaytestpage1.Ebayautomationn()[pri:0, instance:com.ebaypractice.tests.Ebaytestpage1@52f27fbd]"
+      },
+      "dependsOn": [],
+      "startTime": 1497270711751,
+      "duration": 45,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

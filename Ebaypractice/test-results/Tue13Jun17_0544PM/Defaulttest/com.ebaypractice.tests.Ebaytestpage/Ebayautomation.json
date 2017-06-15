@@ -1,0 +1,195 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 18451
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1179
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2956358477139114-1",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.2956358477139114-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2956358477139114-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.2956358477139114-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2956358477139114-1",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.2956358477139114-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.2956358477139114-2, id: 0.2956358477139114-3, id: 0.2956358477139114-4, id: 0.2956358477139114-5, id: 0.2956358477139114-6, id: 0.2956358477139114-7, id: 0.2956358477139114-8, id: 0.2956358477139114-9, id: 0.2956358477139114-10, id: 0.2956358477139114-11, id: 0.2956358477139114-12, id: 0.2956358477139114-13, id: 0.2956358477139114-14, id: 0.2956358477139114-15, id: 0.2956358477139114-16, id: 0.2956358477139114-17, id: 0.2956358477139114-18, id: 0.2956358477139114-19, id: 0.2956358477139114-20, id: 0.2956358477139114-21, id: 0.2956358477139114-22, id: 0.2956358477139114-23, id: 0.2956358477139114-24, id: 0.2956358477139114-25, id: 0.2956358477139114-26, id: 0.2956358477139114-27, id: 0.2956358477139114-28, id: 0.2956358477139114-29, id: 0.2956358477139114-30, id: 0.2956358477139114-31, id: 0.2956358477139114-32, id: 0.2956358477139114-33, id: 0.2956358477139114-34, id: 0.2956358477139114-35, id: 0.2956358477139114-36, id: 0.2956358477139114-37]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2956358477139114-1",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.2956358477139114-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.2956358477139114-6]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.2956358477139114-6",
+        "{\"id\":\"0.2956358477139114-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.2956358477139114-6",
+        "{\"id\":\"0.2956358477139114-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 58
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.2956358477139114-38",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.2956358477139114-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5355
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.44261196265370284-1]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.44261196265370284-1",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.44261196265370284-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='results '], using=xpath}"
+      ],
+      "result": "[id: 0.44261196265370284-2]",
+      "subLogs": [],
+      "duration": 1092
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='results ']",
+        "{\"using\":\"xpath\",\"id\":\"0.44261196265370284-2\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.44261196265370284-3",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.44261196265370284-3\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 33
+    }
+  ],
+  "checkPoints": []
+}

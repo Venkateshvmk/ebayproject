@@ -1,0 +1,119 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6155
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1184
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.9087521988300611-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.9087521988300611-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.9087521988300611-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.9087521988300611-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.9087521988300611-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.9087521988300611-1\",\"value\":\".//option[normalize-space(.) = \\\"Automotive\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.9087521988300611-2]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9087521988300611-2",
+        "{\"id\":\"0.9087521988300611-2\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9087521988300611-2",
+        "{\"id\":\"0.9087521988300611-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.9087521988300611-3",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.9087521988300611-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4653
+    }
+  ],
+  "checkPoints": []
+}

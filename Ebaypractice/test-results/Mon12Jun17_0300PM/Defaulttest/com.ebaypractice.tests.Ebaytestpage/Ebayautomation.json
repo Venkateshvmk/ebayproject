@@ -1,0 +1,140 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3718
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1152
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2072772895510384-1",
+      "subLogs": [],
+      "duration": 639
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.2072772895510384-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2072772895510384-1",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.2072772895510384-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.2072772895510384-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.2072772895510384-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.2072772895510384-2, id: 0.2072772895510384-3, id: 0.2072772895510384-4, id: 0.2072772895510384-5, id: 0.2072772895510384-6, id: 0.2072772895510384-7, id: 0.2072772895510384-8, id: 0.2072772895510384-9, id: 0.2072772895510384-10, id: 0.2072772895510384-11, id: 0.2072772895510384-12, id: 0.2072772895510384-13, id: 0.2072772895510384-14, id: 0.2072772895510384-15, id: 0.2072772895510384-16, id: 0.2072772895510384-17, id: 0.2072772895510384-18, id: 0.2072772895510384-19, id: 0.2072772895510384-20, id: 0.2072772895510384-21, id: 0.2072772895510384-22, id: 0.2072772895510384-23, id: 0.2072772895510384-24, id: 0.2072772895510384-25, id: 0.2072772895510384-26, id: 0.2072772895510384-27, id: 0.2072772895510384-28, id: 0.2072772895510384-29, id: 0.2072772895510384-30, id: 0.2072772895510384-31, id: 0.2072772895510384-32, id: 0.2072772895510384-33, id: 0.2072772895510384-34, id: 0.2072772895510384-35, id: 0.2072772895510384-36, id: 0.2072772895510384-37]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.2072772895510384-2",
+        "{\"name\":\"index\",\"id\":\"0.2072772895510384-2\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.2072772895510384-3",
+        "{\"name\":\"index\",\"id\":\"0.2072772895510384-3\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.2072772895510384-4",
+        "{\"name\":\"index\",\"id\":\"0.2072772895510384-4\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.2072772895510384-5",
+        "{\"name\":\"index\",\"id\":\"0.2072772895510384-5\"}"
+      ],
+      "result": "getElementAttribute:3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.2072772895510384-5",
+        "{\"id\":\"0.2072772895510384-5\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.2072772895510384-5",
+        "{\"id\":\"0.2072772895510384-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1094
+    }
+  ],
+  "checkPoints": []
+}

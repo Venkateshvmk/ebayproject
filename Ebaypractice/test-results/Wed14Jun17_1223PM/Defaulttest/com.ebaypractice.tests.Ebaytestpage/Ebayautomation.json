@@ -1,0 +1,1935 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 52117
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1167
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.6952038235298905-1",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.6952038235298905-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.6952038235298905-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.6952038235298905-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.6952038235298905-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.6952038235298905-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.6952038235298905-2, id: 0.6952038235298905-3, id: 0.6952038235298905-4, id: 0.6952038235298905-5, id: 0.6952038235298905-6, id: 0.6952038235298905-7, id: 0.6952038235298905-8, id: 0.6952038235298905-9, id: 0.6952038235298905-10, id: 0.6952038235298905-11, id: 0.6952038235298905-12, id: 0.6952038235298905-13, id: 0.6952038235298905-14, id: 0.6952038235298905-15, id: 0.6952038235298905-16, id: 0.6952038235298905-17, id: 0.6952038235298905-18, id: 0.6952038235298905-19, id: 0.6952038235298905-20, id: 0.6952038235298905-21, id: 0.6952038235298905-22, id: 0.6952038235298905-23, id: 0.6952038235298905-24, id: 0.6952038235298905-25, id: 0.6952038235298905-26, id: 0.6952038235298905-27, id: 0.6952038235298905-28, id: 0.6952038235298905-29, id: 0.6952038235298905-30, id: 0.6952038235298905-31, id: 0.6952038235298905-32, id: 0.6952038235298905-33, id: 0.6952038235298905-34, id: 0.6952038235298905-35, id: 0.6952038235298905-36, id: 0.6952038235298905-37]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.6952038235298905-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.6952038235298905-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.6952038235298905-6]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.6952038235298905-6",
+        "{\"id\":\"0.6952038235298905-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.6952038235298905-6",
+        "{\"id\":\"0.6952038235298905-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.6952038235298905-38",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.6952038235298905-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 8781
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.5115643107499772-1]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.5115643107499772-1",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.5115643107499772-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='sresult lvresult clearfix li'], using=xpath}"
+      ],
+      "result": "[id: 0.5115643107499772-2, id: 0.5115643107499772-3, id: 0.5115643107499772-4, id: 0.5115643107499772-5, id: 0.5115643107499772-6, id: 0.5115643107499772-7, id: 0.5115643107499772-8, id: 0.5115643107499772-9, id: 0.5115643107499772-10, id: 0.5115643107499772-11, id: 0.5115643107499772-12, id: 0.5115643107499772-13, id: 0.5115643107499772-14, id: 0.5115643107499772-15, id: 0.5115643107499772-16, id: 0.5115643107499772-17, id: 0.5115643107499772-18, id: 0.5115643107499772-19, id: 0.5115643107499772-20, id: 0.5115643107499772-21, id: 0.5115643107499772-22, id: 0.5115643107499772-23, id: 0.5115643107499772-24, id: 0.5115643107499772-25, id: 0.5115643107499772-26, id: 0.5115643107499772-27, id: 0.5115643107499772-28, id: 0.5115643107499772-29, id: 0.5115643107499772-30, id: 0.5115643107499772-31, id: 0.5115643107499772-32, id: 0.5115643107499772-33, id: 0.5115643107499772-34, id: 0.5115643107499772-35, id: 0.5115643107499772-36, id: 0.5115643107499772-37, id: 0.5115643107499772-38, id: 0.5115643107499772-39, id: 0.5115643107499772-40, id: 0.5115643107499772-41, id: 0.5115643107499772-42, id: 0.5115643107499772-43, id: 0.5115643107499772-44, id: 0.5115643107499772-45]",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-2\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-2\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-3\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-3\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-4\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-4\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-5\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-5\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-6\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-6\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-7\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-7\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-8\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-8\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-9\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-9\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-10\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-10\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-11\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-11\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-12\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-12\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-13\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-13\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-14\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-14\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-15\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-15\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-16\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-16\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-17\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-17\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-18\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-18\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-19\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-19\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-20\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-20\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-21\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-21\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-22\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-22\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-23\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-23\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-24\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-24\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-25\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-25\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-26\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-26\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-27\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-27\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-28\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-28\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-29\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-29\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-30\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-30\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-31\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-31\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-32\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-32\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-33\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-33\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-34\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-34\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-35\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-35\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-36\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-36\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-37\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-37\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-38\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-38\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-39\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-39\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-40\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-40\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-41\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-41\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-42\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-42\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-43\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-43\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-44\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-44\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-45\",\"value\":\"//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-46",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.5115643107499772-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.5115643107499772-45\",\"value\":\"//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.5115643107499772-47",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='bold']",
+        "{\"id\":\"0.5115643107499772-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 10
+    }
+  ],
+  "checkPoints": []
+}

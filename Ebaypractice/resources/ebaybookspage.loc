@@ -1,0 +1,3 @@
+selectbook = {\"locator\":\"xpath=//li[@class='sresult lvresult clearfix li']\"}
+book.name = {\"locator\":\"xpath=.//h3[@class=\\\"lvtitle\\\"]\"}
+book.price = {\"locator\":\"xpath=.//span[@class='bold']\"}

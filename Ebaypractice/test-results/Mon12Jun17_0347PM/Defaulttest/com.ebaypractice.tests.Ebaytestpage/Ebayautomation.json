@@ -1,0 +1,138 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4427
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1170
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.8377972882768019-1",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.8377972882768019-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.8377972882768019-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.8377972882768019-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.8377972882768019-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.8377972882768019-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.8377972882768019-2, id: 0.8377972882768019-3, id: 0.8377972882768019-4, id: 0.8377972882768019-5, id: 0.8377972882768019-6, id: 0.8377972882768019-7, id: 0.8377972882768019-8, id: 0.8377972882768019-9, id: 0.8377972882768019-10, id: 0.8377972882768019-11, id: 0.8377972882768019-12, id: 0.8377972882768019-13, id: 0.8377972882768019-14, id: 0.8377972882768019-15, id: 0.8377972882768019-16, id: 0.8377972882768019-17, id: 0.8377972882768019-18, id: 0.8377972882768019-19, id: 0.8377972882768019-20, id: 0.8377972882768019-21, id: 0.8377972882768019-22, id: 0.8377972882768019-23, id: 0.8377972882768019-24, id: 0.8377972882768019-25, id: 0.8377972882768019-26, id: 0.8377972882768019-27, id: 0.8377972882768019-28, id: 0.8377972882768019-29, id: 0.8377972882768019-30, id: 0.8377972882768019-31, id: 0.8377972882768019-32, id: 0.8377972882768019-33, id: 0.8377972882768019-34, id: 0.8377972882768019-35, id: 0.8377972882768019-36, id: 0.8377972882768019-37]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.8377972882768019-1",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.8377972882768019-1\",\"value\":\".//option[normalize-space(.) = \\\"Automotive\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.8377972882768019-4]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.8377972882768019-4",
+        "{\"id\":\"0.8377972882768019-4\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.8377972882768019-4",
+        "{\"id\":\"0.8377972882768019-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.8377972882768019-38",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.8377972882768019-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4158
+    }
+  ],
+  "checkPoints": []
+}

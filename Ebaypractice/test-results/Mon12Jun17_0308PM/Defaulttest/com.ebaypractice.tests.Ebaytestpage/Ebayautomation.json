@@ -1,0 +1,100 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11766
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1194
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.12814929780071238-1",
+      "subLogs": [],
+      "duration": 710
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.12814929780071238-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.12814929780071238-1",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.12814929780071238-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.12814929780071238-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.12814929780071238-1\",\"value\":\".//option[normalize-space(.) = \\\"Automotive\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.12814929780071238-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.12814929780071238-2",
+        "{\"id\":\"0.12814929780071238-2\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.12814929780071238-2",
+        "{\"id\":\"0.12814929780071238-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 65
+    }
+  ],
+  "checkPoints": []
+}

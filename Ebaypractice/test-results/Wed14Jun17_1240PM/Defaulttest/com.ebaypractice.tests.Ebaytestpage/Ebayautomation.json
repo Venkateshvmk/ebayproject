@@ -1,0 +1,1935 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 17955
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1176
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.18056688912945162-1",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.18056688912945162-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.18056688912945162-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.18056688912945162-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.18056688912945162-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.18056688912945162-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.18056688912945162-2, id: 0.18056688912945162-3, id: 0.18056688912945162-4, id: 0.18056688912945162-5, id: 0.18056688912945162-6, id: 0.18056688912945162-7, id: 0.18056688912945162-8, id: 0.18056688912945162-9, id: 0.18056688912945162-10, id: 0.18056688912945162-11, id: 0.18056688912945162-12, id: 0.18056688912945162-13, id: 0.18056688912945162-14, id: 0.18056688912945162-15, id: 0.18056688912945162-16, id: 0.18056688912945162-17, id: 0.18056688912945162-18, id: 0.18056688912945162-19, id: 0.18056688912945162-20, id: 0.18056688912945162-21, id: 0.18056688912945162-22, id: 0.18056688912945162-23, id: 0.18056688912945162-24, id: 0.18056688912945162-25, id: 0.18056688912945162-26, id: 0.18056688912945162-27, id: 0.18056688912945162-28, id: 0.18056688912945162-29, id: 0.18056688912945162-30, id: 0.18056688912945162-31, id: 0.18056688912945162-32, id: 0.18056688912945162-33, id: 0.18056688912945162-34, id: 0.18056688912945162-35, id: 0.18056688912945162-36, id: 0.18056688912945162-37]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.18056688912945162-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.18056688912945162-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.18056688912945162-6]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.18056688912945162-6",
+        "{\"id\":\"0.18056688912945162-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.18056688912945162-6",
+        "{\"id\":\"0.18056688912945162-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.18056688912945162-38",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.18056688912945162-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5354
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.8629379396744725-1]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.8629379396744725-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.8629379396744725-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='sresult lvresult clearfix li'], using=xpath}"
+      ],
+      "result": "[id: 0.8629379396744725-2, id: 0.8629379396744725-3, id: 0.8629379396744725-4, id: 0.8629379396744725-5, id: 0.8629379396744725-6, id: 0.8629379396744725-7, id: 0.8629379396744725-8, id: 0.8629379396744725-9, id: 0.8629379396744725-10, id: 0.8629379396744725-11, id: 0.8629379396744725-12, id: 0.8629379396744725-13, id: 0.8629379396744725-14, id: 0.8629379396744725-15, id: 0.8629379396744725-16, id: 0.8629379396744725-17, id: 0.8629379396744725-18, id: 0.8629379396744725-19, id: 0.8629379396744725-20, id: 0.8629379396744725-21, id: 0.8629379396744725-22, id: 0.8629379396744725-23, id: 0.8629379396744725-24, id: 0.8629379396744725-25, id: 0.8629379396744725-26, id: 0.8629379396744725-27, id: 0.8629379396744725-28, id: 0.8629379396744725-29, id: 0.8629379396744725-30, id: 0.8629379396744725-31, id: 0.8629379396744725-32, id: 0.8629379396744725-33, id: 0.8629379396744725-34, id: 0.8629379396744725-35, id: 0.8629379396744725-36, id: 0.8629379396744725-37, id: 0.8629379396744725-38, id: 0.8629379396744725-39, id: 0.8629379396744725-40, id: 0.8629379396744725-41, id: 0.8629379396744725-42, id: 0.8629379396744725-43, id: 0.8629379396744725-44, id: 0.8629379396744725-45]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-2\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-46\"}"
+      ],
+      "result": "getElementText:\"Star Trek\" Encyclopedia: A Reference Guide to the Future",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-2\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-47",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-47\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-3\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-48",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-48\"}"
+      ],
+      "result": "getElementText:Cheiro's Numerology and Astrology: The Book of Fate and Fortune",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-3\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-49",
+      "subLogs": [],
+      "duration": 2432
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-49\"}"
+      ],
+      "result": "getElementText:Rs. 280.36",
+      "subLogs": [],
+      "duration": 227
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-4\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-50",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-50\"}"
+      ],
+      "result": "getElementText:The Marshall Illustrated Encyclopedia of Dinosaurs and Prehistoric Animals",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-4\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-51",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-51\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-5\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-52",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-52\"}"
+      ],
+      "result": "getElementText:An Appetite For Wonder: The Making of a Scientist",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-5\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-53",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-53\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-6\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-54",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-54\"}"
+      ],
+      "result": "getElementText:The World Encyclopedia of Meat and Poultry",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-6\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-55",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-55\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-7\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-56",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-56\"}"
+      ],
+      "result": "getElementText:The Complete Saxophone Player (Book 1)",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-7\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-57",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-57\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-8\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-58",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-58\"}"
+      ],
+      "result": "getElementText:Harry Potter and the Philosopher's Stone (Book 1): Adult Edition",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-8\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-59",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-59\"}"
+      ],
+      "result": "getElementText:Rs. 289.82",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-9\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-60",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-60\"}"
+      ],
+      "result": "getElementText:The Great Big Book of Dinosaurs",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-9\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-61",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-61\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-10\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-62",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-62\"}"
+      ],
+      "result": "getElementText:The Great Book of Dinosaurs",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-10\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-63",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-63\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-11\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-64",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-64\"}"
+      ],
+      "result": "getElementText:The Complete Idiot's Guide to Playing Piano",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-11\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-65",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-65\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-12\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-66",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-66\"}"
+      ],
+      "result": "getElementText:Borders for Calligraphy: How to Design a Decorated Page",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-12\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-67",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-67\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-13\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-68",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-68\"}"
+      ],
+      "result": "getElementText:Isaac Newtons Freemasonry: The Alchemy of Science and Mysticism",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-13\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-69",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-69\"}"
+      ],
+      "result": "getElementText:Rs. 257.14",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-14\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-70",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-70\"}"
+      ],
+      "result": "getElementText:Rare IMPACT COMICS Legend Of The Shield #1 1991 English",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-14\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-71",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-71\"}"
+      ],
+      "result": "getElementText:Rs. 500.00",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-15\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-72",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-72\"}"
+      ],
+      "result": "getElementText:INDIA RARE INDRAJAAL COMICS (6 COMICS IN 1 LOT)",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-15\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-73",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-73\"}"
+      ],
+      "result": "getElementText:Rs. 3,000.00",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-16\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-74",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-74\"}"
+      ],
+      "result": "getElementText:How to Use a Pendulum for Dowsing and Divination",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-16\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-75",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-75\"}"
+      ],
+      "result": "getElementText:Rs. 1,014.85",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-17\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-76",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-76\"}"
+      ],
+      "result": "getElementText:Revolution!: The Explosion of World Cinema in the 60s",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-17\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-77",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-77\"}"
+      ],
+      "result": "getElementText:Rs. 242.52",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-18\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-78",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-78\"}"
+      ],
+      "result": "getElementText:Captured: Book one The Captive Series: Volume 1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-18\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-79",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-79\"}"
+      ],
+      "result": "getElementText:Rs. 442.90",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-19\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-80",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-80\"}"
+      ],
+      "result": "getElementText:Culture Shock! Iran: A Guide to Customs and Etiquette",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-19\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-81",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-81\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-20\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-82",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-82\"}"
+      ],
+      "result": "getElementText:Japanese Business Etiquette: A Practical Guide to Success with the Japanese",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-20\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-83",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-83\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-21\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-84",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-84\"}"
+      ],
+      "result": "getElementText:The Friendship Book 1986: A Thought for Each Day in 1986",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-21\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-85",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-85\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-22\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-86",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-86\"}"
+      ],
+      "result": "getElementText:Born in Blood: The Lost Secrets of Freemasonry",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-22\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-87",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-87\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-23\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-88",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-88\"}"
+      ],
+      "result": "getElementText:Battleground Atlantic: How the Sinking of a Single Japanese Submarine Assuredth",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-23\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-89",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-89\"}"
+      ],
+      "result": "getElementText:Rs. 353.46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-24\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-90",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-90\"}"
+      ],
+      "result": "getElementText:Rare Old Indrajal Comics MANDRAKE Invasion Of The Earth #334 India English",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-24\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-91",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-91\"}"
+      ],
+      "result": "getElementText:Rs. 549.00",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-25\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-92",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-92\"}"
+      ],
+      "result": "getElementText:Cases and Materials on the Carriage of Goods by Sea",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-25\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-93",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-93\"}"
+      ],
+      "result": "getElementText:Rs. 4,697.16",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-26\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-94",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-94\"}"
+      ],
+      "result": "getElementText:Rare RAJ Comics 11 in 1 Lot Hindi India",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-26\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-95",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-95\"}"
+      ],
+      "result": "getElementText:Rs. 1,600.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-27\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-96",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-96\"}"
+      ],
+      "result": "getElementText:The Enchanted Forest - A Delightful Book",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-27\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-97",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-97\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-28\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-98",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-98\"}"
+      ],
+      "result": "getElementText:Rare Dell Comics BATTLE OF THE BULGE # 1966 English",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-28\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-99",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-99\"}"
+      ],
+      "result": "getElementText:Rs. 300.00",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-29\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-100",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-100\"}"
+      ],
+      "result": "getElementText:Rare KRIYETIC COMICS Man In The Mirror 2007 English India",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-29\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-101",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-101\"}"
+      ],
+      "result": "getElementText:Rs. 300.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-30\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-102",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-102\"}"
+      ],
+      "result": "getElementText:Superman: Whatever Happened to the Man of Tomorrow?",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-30\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-103",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-103\"}"
+      ],
+      "result": "getElementText:Rs. 638.75",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-31\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-104",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-104\"}"
+      ],
+      "result": "getElementText:INDIA RARE INDRAJAAL COMICS HINDI OF 1987 (5 IN 1 LOT)",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-31\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-105",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-105\"}"
+      ],
+      "result": "getElementText:Rs. 4,550.00",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-32\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-106",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-106\"}"
+      ],
+      "result": "getElementText:INDIA RARE SUPERMAN BATMAN HINDI COMICS (3 COMICS IN 1 LOT)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-32\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-107",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-107\"}"
+      ],
+      "result": "getElementText:Rs. 5,500.00",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-33\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-108",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-108\"}"
+      ],
+      "result": "getElementText:Lot 9 Rare Archie Series Comics JOKE BOOK English 1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-33\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-109",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-109\"}"
+      ],
+      "result": "getElementText:Rs. 499.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-34\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-110",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-110\"}"
+      ],
+      "result": "getElementText:The Three Princes of Persia: Children in World Myth",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-34\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-111",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-111\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-35\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-112",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-112\"}"
+      ],
+      "result": "getElementText:Rare Egmont Comics ADVENTURES OF DONALD DUCK # English India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-35\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-113",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-113\"}"
+      ],
+      "result": "getElementText:Rs. 300.00",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-36\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-114",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-114\"}"
+      ],
+      "result": "getElementText:Rare IMPACT COMICS The Web #1 1991 English",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-36\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-115",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-115\"}"
+      ],
+      "result": "getElementText:Rs. 400.00",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-37\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-116",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-116\"}"
+      ],
+      "result": "getElementText:Rare DC Egmont Comics THE ADVENTURE OF SUPERMAN # 1990 English",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-37\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-117",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-117\"}"
+      ],
+      "result": "getElementText:Rs. 400.00",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-38\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-118",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-118\"}"
+      ],
+      "result": "getElementText:Holy Land: A Picture Book to Remember Her by",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-38\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-119",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-119\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-39\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-120",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-120\"}"
+      ],
+      "result": "getElementText:NEW LISTING INDIA-OLD & RARE TULSI COMICS (3 IN 1 LOT)",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-39\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-121",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-121\"}"
+      ],
+      "result": "getElementText:Rs. 1,350.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-40\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-122",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-122\"}"
+      ],
+      "result": "getElementText:NEW LISTING INDIA-OLD & RARE TULSI COMICS (3 IN 1 LOT)",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-40\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-123",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-123\"}"
+      ],
+      "result": "getElementText:Rs. 1,250.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-41\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-124",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-124\"}"
+      ],
+      "result": "getElementText:NEW LISTING INDIA-OLD & RARE TULSI COMICS (3 IN 1 LOT)",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-41\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-125",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-125\"}"
+      ],
+      "result": "getElementText:Rs. 1,350.00",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-42\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-126",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-126\"}"
+      ],
+      "result": "getElementText:NEW LISTING INDIA-OLD & RARE TULSI COMICS (3 IN 1 LOT)",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-42\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-127",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-127\"}"
+      ],
+      "result": "getElementText:Rs. 1,350.00",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-43\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-128",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-128\"}"
+      ],
+      "result": "getElementText:NEW LISTING Very Rare ARCHIE'S English Comics of 1978 (5 in 1 Lot)",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-43\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-129",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-129\"}"
+      ],
+      "result": "getElementText:Rs. 1,000.00",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-44\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-130",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-130\"}"
+      ],
+      "result": "getElementText:Gumboots and Pearls: The Life of a Wife of....",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-44\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-131",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-131\"}"
+      ],
+      "result": "getElementText:Rs. 241.66",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-45\",\"value\":\".//h3[@class=\\\"lvtitle\\\"]\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-132",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//h3[@class=\"lvtitle\"]",
+        "{\"id\":\"0.8629379396744725-132\"}"
+      ],
+      "result": "getElementText:NEW LISTING INDIA RARE BOOK \" COMING BACK THE SCIENCE OF REINCARNATION\" ENGLISH",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8629379396744725-45\",\"value\":\".//span[@class='bold']\"}"
+      ],
+      "result": "findChildElement:id: 0.8629379396744725-133",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//span[@class='bold']",
+        "{\"id\":\"0.8629379396744725-133\"}"
+      ],
+      "result": "getElementText:Rs. 150.00",
+      "subLogs": [],
+      "duration": 24
+    }
+  ],
+  "checkPoints": []
+}

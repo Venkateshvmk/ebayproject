@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.ebaypractice.tests.Ebaytestpage1">
+        <methods>
+          <include name="Ebayautomationn"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.ebaypractice.tests.Ebaytestpage1 -->
+      <class name="com.ebaypractice.tests.Ebaytestpage">
+        <methods>
+          <include name="Ebayautomation"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.ebaypractice.tests.Ebaytestpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,1095 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 16226
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1196
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.17970703698116108-1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.17970703698116108-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.17970703698116108-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.17970703698116108-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.17970703698116108-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.17970703698116108-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.17970703698116108-2, id: 0.17970703698116108-3, id: 0.17970703698116108-4, id: 0.17970703698116108-5, id: 0.17970703698116108-6, id: 0.17970703698116108-7, id: 0.17970703698116108-8, id: 0.17970703698116108-9, id: 0.17970703698116108-10, id: 0.17970703698116108-11, id: 0.17970703698116108-12, id: 0.17970703698116108-13, id: 0.17970703698116108-14, id: 0.17970703698116108-15, id: 0.17970703698116108-16, id: 0.17970703698116108-17, id: 0.17970703698116108-18, id: 0.17970703698116108-19, id: 0.17970703698116108-20, id: 0.17970703698116108-21, id: 0.17970703698116108-22, id: 0.17970703698116108-23, id: 0.17970703698116108-24, id: 0.17970703698116108-25, id: 0.17970703698116108-26, id: 0.17970703698116108-27, id: 0.17970703698116108-28, id: 0.17970703698116108-29, id: 0.17970703698116108-30, id: 0.17970703698116108-31, id: 0.17970703698116108-32, id: 0.17970703698116108-33, id: 0.17970703698116108-34, id: 0.17970703698116108-35, id: 0.17970703698116108-36, id: 0.17970703698116108-37]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.17970703698116108-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.17970703698116108-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.17970703698116108-6]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.17970703698116108-6",
+        "{\"id\":\"0.17970703698116108-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.17970703698116108-6",
+        "{\"id\":\"0.17970703698116108-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.17970703698116108-38",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.17970703698116108-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4956
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.8122761919799184-1]",
+      "subLogs": [],
+      "duration": 140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.8122761919799184-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.8122761919799184-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//li[@class='sresult lvresult clearfix li'], using=xpath}"
+      ],
+      "result": "[id: 0.8122761919799184-2, id: 0.8122761919799184-3, id: 0.8122761919799184-4, id: 0.8122761919799184-5, id: 0.8122761919799184-6, id: 0.8122761919799184-7, id: 0.8122761919799184-8, id: 0.8122761919799184-9, id: 0.8122761919799184-10, id: 0.8122761919799184-11, id: 0.8122761919799184-12, id: 0.8122761919799184-13, id: 0.8122761919799184-14, id: 0.8122761919799184-15, id: 0.8122761919799184-16, id: 0.8122761919799184-17, id: 0.8122761919799184-18, id: 0.8122761919799184-19, id: 0.8122761919799184-20, id: 0.8122761919799184-21, id: 0.8122761919799184-22, id: 0.8122761919799184-23, id: 0.8122761919799184-24, id: 0.8122761919799184-25, id: 0.8122761919799184-26, id: 0.8122761919799184-27, id: 0.8122761919799184-28, id: 0.8122761919799184-29, id: 0.8122761919799184-30, id: 0.8122761919799184-31, id: 0.8122761919799184-32, id: 0.8122761919799184-33, id: 0.8122761919799184-34, id: 0.8122761919799184-35, id: 0.8122761919799184-36, id: 0.8122761919799184-37, id: 0.8122761919799184-38, id: 0.8122761919799184-39, id: 0.8122761919799184-40, id: 0.8122761919799184-41, id: 0.8122761919799184-42, id: 0.8122761919799184-43, id: 0.8122761919799184-44, id: 0.8122761919799184-45, id: 0.8122761919799184-46, id: 0.8122761919799184-47]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-2\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-3\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-4\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-5\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-6\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-7\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-8\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-9\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-10\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-11\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-12\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-13\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-14\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-15\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-16\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-17\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-18\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-19\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-20\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-21\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-22\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-23\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-24\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-25\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-26\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-27\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-28\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-29\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-30\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-31\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-32\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-33\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-34\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-35\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-36\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-37\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-38\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-39\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-40\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-41\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-42\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-43\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-44\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-45\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-46\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//li[@class='sresult lvresult clearfix li']",
+        "{\"using\":\"xpath\",\"id\":\"0.8122761919799184-47\",\"value\":\"//a[@class='vip']\"}"
+      ],
+      "result": "findChildElement:id: 0.8122761919799184-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[@class='vip']",
+        "{\"id\":\"0.8122761919799184-48\"}"
+      ],
+      "result": "getElementText:Magical Book On Quicker Maths by Tyra Reprint 2016",
+      "subLogs": [],
+      "duration": 16
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,185 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ebay.in}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3290
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1171
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.3301699751037668-1",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: _sacat",
+        "{\"id\":\"0.3301699751037668-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.3301699751037668-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: _sacat",
+        "{\"name\":\"multiple\",\"id\":\"0.3301699751037668-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.3301699751037668-1",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"tag name\",\"id\":\"0.3301699751037668-1\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.3301699751037668-2, id: 0.3301699751037668-3, id: 0.3301699751037668-4, id: 0.3301699751037668-5, id: 0.3301699751037668-6, id: 0.3301699751037668-7, id: 0.3301699751037668-8, id: 0.3301699751037668-9, id: 0.3301699751037668-10, id: 0.3301699751037668-11, id: 0.3301699751037668-12, id: 0.3301699751037668-13, id: 0.3301699751037668-14, id: 0.3301699751037668-15, id: 0.3301699751037668-16, id: 0.3301699751037668-17, id: 0.3301699751037668-18, id: 0.3301699751037668-19, id: 0.3301699751037668-20, id: 0.3301699751037668-21, id: 0.3301699751037668-22, id: 0.3301699751037668-23, id: 0.3301699751037668-24, id: 0.3301699751037668-25, id: 0.3301699751037668-26, id: 0.3301699751037668-27, id: 0.3301699751037668-28, id: 0.3301699751037668-29, id: 0.3301699751037668-30, id: 0.3301699751037668-31, id: 0.3301699751037668-32, id: 0.3301699751037668-33, id: 0.3301699751037668-34, id: 0.3301699751037668-35, id: 0.3301699751037668-36, id: 0.3301699751037668-37]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=_sacat, using=name}"
+      ],
+      "result": "id: 0.3301699751037668-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: _sacat",
+        "{\"using\":\"xpath\",\"id\":\"0.3301699751037668-1\",\"value\":\".//option[normalize-space(.) = \\\"Books & Magazines\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.3301699751037668-6]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.3301699751037668-6",
+        "{\"id\":\"0.3301699751037668-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 1323
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.3301699751037668-6",
+        "{\"id\":\"0.3301699751037668-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.3301699751037668-38",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.3301699751037668-38\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5242
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "[id: 0.11857555158582134-1]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=gh-btn, using=id}"
+      ],
+      "result": "id: 0.11857555158582134-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: gh-btn",
+        "{\"id\":\"0.11857555158582134-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@id='spf_content'], using=xpath}"
+      ],
+      "result": "[id: 0.11857555158582134-2]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='spf_content']",
+        "{\"id\":\"0.11857555158582134-2\"}"
+      ],
+      "result": "getElementText:  Magical Book On Quicker Maths by Tyra Reprint 2016\nSAME DAY SHIPPING EXPRESS DELIVERY\nRs. 299.00\nBuy It Now\nFree shipping\n5 watching\n2 Photos\nMagical Book on Quicker Maths by Tyra (Paperback)\nRs. 280.00\nBuy It Now\nFree shipping\nCheiro's Numerology and Astrology: The Book of Fate and Fortune\nRs. 280.36\nBuy It Now\nFree shipping\nAn Appetite For Wonder: The Making of a Scientist\nRs. 241.66\nBuy It Now\nFree shipping\nA Step by Step Book About Setting Up an Aquarium\nRs. 241.66\nBuy It Now\nFree shipping\n\"Star Trek\" Encyclopedia: A Reference Guide to the Future\nRs. 241.66\nBuy It Now\nFree shipping\nThe Marshall Illustrated Encyclopedia of Dinosaurs and Prehistoric Animals\nRs. 241.66\nBuy It Now\nFree shipping\nThe Great Big Book of Dinosaurs\nRs. 241.66\nBuy It Now\nFree shipping\nHarry Potter and the Philosopher's Stone (Book 1): Adult Edition\nRs. 289.82\nBuy It Now\nFree shipping\nThe World Encyclopedia of Meat and Poultry\nRs. 241.66\nBuy It Now\nFree shipping\nThe Great Book of Dinosaurs\nRs. 241.66\nBuy It Now\nFree shipping\nCases and Materials on the Carriage of Goods by Sea\nMRP is 4,797.16 Rs | Book\"s type: Paperback\nRs. 4,697.16\nBuy It Now\n+Rs. 65.00 shipping\n2 Photos\nThe Rise of Sivagami: Book 1 of Baahubal by Anand Neelakantan (Paperback)\nRs. 250.00\nBuy It Now\nFree shipping\nThe Hamlyn Guide to Minerals, Rock and Fossils\nRs. 281.22\nBuy It Now\nFree shipping\nOnly 1 left!\n2 watching\nMysteries of the World: Gift Folder and DVD\nRs. 241.66\nBuy It Now\nFree shipping\nThe UFO Book: Encyclopedia of the Extraterrestrial\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 6,205.00\nBuy It Now\nFree shipping\nTeach, Breathe, Learn: Mindfulness in and Out of the Classroom\nMRP is 822.27 Rs | Book\"s type: Paperback\nRs. 722.27\nBuy It Now\n+Rs. 65.00 shipping\nHow to Build a Multi-Level Money Machine: The Science of Network Marketing\nRs. 241.66\nBuy It Now\nFree shipping\n2 Photos\nNEW LISTING How to Win Friends and Influence People (Written by Dale Carnegie)\nRs. 115.00\nBuy It Now\n+Rs. 35.00 shipping\nSelfie Stick (Bid only if you want to buy)\nRs. 55.00\n2 bids\n+Rs. 10.00 shipping\n3h left (Today 16:05)\nThe Best Book of Dinosaurs (Best Book Of... (Kingfisher Hardcover))\nRs. 241.66\nBuy It Now\nFree shipping\nPHANTOM COMICS by Indrajal- a collection\nThe Ghost's Verdict Part 3\nRs. 550.00\n0 bids\nFree shipping\n4d left (Saturday, 13:51)\nThe Book of Man: Readings on the Path to Manhood\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 3,699.00\nBuy It Now\nFree shipping\nAdventurers Wanted, Book Two: The Horn of Moran\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 6,402.00\nBuy It Now\nFree shipping\nA Treatise On Painting (1844) (Legacy Reprint)\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 4,509.00\nBuy It Now\nFree shipping\nMay Bird and the Ever After, Book #1\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 6,653.00\nBuy It Now\nFree shipping\n9 Photos\nINDIA VERY OLD & RARE BOOK OF 1948 \"INDIA A PICTORIAL SURBEY\"\nRs. 600.00\nBuy It Now\nFree shipping\nLife with Lucas - Book 1: Daily Readings Throughout the Year\nRs. 241.66\nBuy It Now\nFree shipping\nMetalsmith's Book of Boxes and Lockets\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 10,476.00\nBuy It Now\nFree shipping\nSalvation on the Small Screen: 24 Hours of Christian Television\nRs. 576.20\nBuy It Now\nFree shipping\nRare IMPACT COMICS Legend Of The Shield #1 1991 English\nOld, Used & Out of Print Rare Comics\nRs. 500.00\nBuy It Now\nFree shipping\nThe Black Mirror: Fragments of an Obituary for Life\nRs. 710.36\nBuy It Now\nFree shipping\nThe Hitchhiker's Guide to the Galaxy\nRs. 241.66\nBuy It Now\nFree shipping\nOnly 1 left!\nThe Penguin Book of German Verse (German Edition)\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 14,441.00\nBuy It Now\nFree shipping\nMagi Astrology the Key to Success In Love and Money\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 13,363.00\nBuy It Now\nFree shipping\nThe Witches' Spell Book: For Love, Happiness, and Success\nMRP is 660.00 Rs | Book\"s type: Hardcover\nRs. 560.00\nBuy It Now\n+Rs. 65.00 shipping\nThere's a Demon Lord on the Floor Vol. 1\nMRP is 653.53 Rs | Book\"s type: Paperback\nRs. 553.53\nBuy It Now\n+Rs. 65.00 shipping\nThe Concise Book of Muscles, Second Edition\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 7,386.00\nBuy It Now\nFree shipping\nIntroduction to the Dimensional Stability of Composite Materials\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 12,884.00\nBuy It Now\nFree shipping\nThe Smithsonian Book of North American Mammals\nWe ship from USA.Please allow us 20 days for delivery.\nRs. 5,870.00\nBuy It Now\nFree shipping\nGumboots and Pearls: The Life of a Wife of....\nRs. 241.66\nBuy It Now\nFree shipping\nKingdom: Book Two of the Saladin Trilogy\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING Wheat, Milk and Egg-Free (Recipes for Health)\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING Speaker For The Dead: Book 2 in the Ender Saga\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING How to Be a Better Foodie: A Bulging Little Book for the Truly Epicurious\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING The Time of Your Life: Getting on with Getting on\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING The Big Red Book of Tomatoes (Penguin Cookery Library)\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING How to Cross the Road and Not Turn into a Pizza\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING A Father's Book of Wisdom\nRs. 241.66\nBuy It Now\nFree shipping\nNEW LISTING The Wicked Little Book of Quotes (Mini Squares)\nRs. 241.66\nBuy It Now\nFree shipping\nItems per page: \n50\n1 2 3 4 5 6 7 8 9 10",
+      "subLogs": [],
+      "duration": 740
+    }
+  ],
+  "checkPoints": []
+}

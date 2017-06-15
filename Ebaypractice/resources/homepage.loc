@@ -1,0 +1,4 @@
+homepage.ebay = {\"locator\":\"xpath=//div[text()='%s']\"}
+homepage.allcatogory = {\"locator\":\"name=_sacat\"}
+homepage.shopbycatgry = {\"locator\":\"id=gh-shop-a\"}
+homepage.searchbtn = {\"locator\":\"id=gh-btn\"}
